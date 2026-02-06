@@ -70,19 +70,19 @@ Crypto Miner Optimizer (CMO) is a comprehensive desktop application designed to 
 
 ### Dashboard
 ![Dashboard](docs/images/dashboard.png)
-*Main dashboard with GPU monitoring and performance stats*
+*Main dashboard with GPU monitoring, performance stats, and real-time metrics*
 
-### Profitability Analysis
-![Profitability](docs/images/profitability.png)
-*Real-time profitability tracking and algorithm comparison*
-
-### AI Optimization
-![AI Model](docs/images/ai-model.png)
-*AI model training and optimization interface*
-
-### Coin Switch
+### Coin Switch AI
 ![Coin Switch](docs/images/coin-switch.png)
-*Predictive coin switching with ML-based recommendations*
+*Predictive coin switching with ML-based recommendations and auto-switch settings*
+
+### AI Learning Model
+![AI Model](docs/images/ai-model.png)
+*Deep learning model training interface with neural network architecture visualization*
+
+### Automation & Control
+![Automation](docs/images/automation.png)
+*Configure alert thresholds, automation rules, and notification channels*
 
 </div>
 
