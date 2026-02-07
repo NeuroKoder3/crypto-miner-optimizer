@@ -29,12 +29,17 @@ public:
 };
 
 int main(int argc, char *argv[]) {
-  // Fix flickering: use software rendering for stability
+  // Fix GPU context errors: force software rendering for maximum compatibility
   qputenv("QT_QUICK_BACKEND", "software");
+  qputenv("QT_OPENGL", "software");
+  qputenv("LIBGL_ALWAYS_SOFTWARE", "1");
   qputenv("QTWEBENGINE_CHROMIUM_FLAGS", 
           "--disable-gpu "
           "--disable-gpu-compositing "
           "--disable-gpu-vsync "
+          "--disable-gpu-sandbox "
+          "--disable-software-rasterizer "
+          "--use-gl=swiftshader "
           "--enable-features=UseSkiaRenderer");
 
   QApplication app(argc, argv);
